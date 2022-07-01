@@ -11,7 +11,7 @@
           <a class="nav-link" href="#" v-for="(link, i) in navbarLinks" :key="i">{{ link }}<i class="fa-solid fa-angle-down"></i></a>
           <a class="my-auto pe-3" href="#"><i class="fa-regular fa-circle-user fs-6"></i></a>
           <form class="d-flex position-relative" role="search">
-            <input class="form-control me-2 bg-light border-0 py-2" type="search" placeholder="Search..." aria-label="Search">
+            <input class="form-control me-2 bg-light border-0 py-2" type="text" placeholder="Search..." aria-label="Search">
             <a href="#"><i class="fa-solid fa-magnifying-glass glass-position fs-6"></i></a>
           </form>
         </div>
