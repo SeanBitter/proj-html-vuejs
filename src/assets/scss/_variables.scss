@@ -1,3 +1,15 @@
 $primary: #20AD96;
 $secondary: #3F3A64;
 $tertiary: #AD9EAC;
+
+.text-my-primary {
+  color: $primary;
+}
+
+.text-my-secondary {
+  color: $secondary;
+}
+
+.text-my-tertiary {
+  color: $tertiary;
+}

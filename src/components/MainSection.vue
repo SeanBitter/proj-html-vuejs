@@ -11,13 +11,15 @@
           <p class="py-3">Have questions? <span>Get Free Sample<i class="fa-solid fa-arrow-right ps-2"></i></span></p>
         </div>
 
-        <div class="main-section-img my-3 position-relative text-end">
-          <img :src="require('../assets/img/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg')" alt="" class="rounded-circle img-testimonial">
-          <img :src="require('../assets/img/maxcoach-shape-08.png')" alt="" class="position-img-one">
-          <img :src="require('../assets/img/maxcoach-shape-08.png')" alt="" class="position-img-two">
-          <img :src="require('../assets/img/maxcoach-shape-07-150x150.png')" alt="" class="position-img-three">
-          <img :src="require('../assets/img/maxcoach-shape-02.png')" alt="" class="position-img-four">
-          <span class="position-img-five"></span>
+        <div class="main-section-img my-3 text-end">
+          <div class="position-relative">
+            <div class="text-end"><img :src="require('../assets/img/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg')" alt="" class="rounded-circle img-testimonial ms-5"></div>
+            <img :src="require('../assets/img/maxcoach-shape-08.png')" alt="" class="position-img-one">
+            <img :src="require('../assets/img/maxcoach-shape-08.png')" alt="" class="position-img-two">
+            <img :src="require('../assets/img/maxcoach-shape-07-150x150.png')" alt="" class="position-img-three">
+            <img :src="require('../assets/img/maxcoach-shape-02.png')" alt="" class="position-img-four">
+            <span class="position-img-five"></span>
+          </div>
         </div>
 
       </div>
@@ -87,7 +89,7 @@ export default {
 @import "../assets/scss/variables";
 
   .main-section-text {
-    flex-basis: 40%;
+    flex-basis: 45%;
 
       h2 {
         font-size: 2.5rem;
@@ -105,23 +107,22 @@ export default {
   }
 
   .main-section-img {
-    flex-basis: 60%;
+    flex-basis: 55%;
 
       .img-testimonial {
         max-width: 100%;
-        margin-left: 3rem;
       }
       .position-img-one {
         position: absolute;
         top: 30%;
-        left: 10%;
+        left: 5%;
         z-index: -1;
       }
 
       .position-img-two {
         position: absolute;
         top: 54%;
-        left: 10%;
+        left: 5%;
         z-index: -1;
       }
 
