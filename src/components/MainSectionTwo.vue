@@ -11,8 +11,6 @@
           <p class="py-3"><span>Download free guidebook<i class="fa-solid fa-arrow-right ps-2"></i></span></p>
         </div>
 
-        <!-- sistemare le img in absolute, aggiungere logo yt, sistemare colori titolo  -->
-
         <div class="main-section-img my-3 text-start">
           <div class="position-relative">
               <div class="text-center"><img :src="require('../assets/img/home-2-popup-video-poster.jpg')" alt="" class="img-testimonial rounded w-100 shadow"></div>
