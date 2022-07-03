@@ -14,7 +14,7 @@
         <div class="main-section-img my-3 text-start">
           <div class="position-relative">
               <div class="text-center"><img :src="require('../assets/img/home-2-popup-video-poster.jpg')" alt="" class="img-testimonial rounded w-100 shadow"></div>
-              <img :src="require('../assets/img/icon-youtube-play.png')" alt="" class="position-img-one-this">
+              <img :src="require('../assets/img/icon-youtube-play.png')" alt="" class="position-img-one-this img-video">
               <img :src="require('../assets/img/maxcoach-shape-05-150x150.png')" alt="" class="position-img-two-this">
               <img :src="require('../assets/img/maxcoach-shape-07-150x150.png')" alt="" class="position-img-three-this">
               <span class="position-img-circle-this"></span>
@@ -67,5 +67,9 @@ export default {
       padding: 1.5rem;
       border-radius: 50%;
     }
+
+    .img-video {
+      cursor: pointer;
+    } 
 
 </style>

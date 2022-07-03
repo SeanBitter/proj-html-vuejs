@@ -139,7 +139,7 @@ export default {
         right: -15%;
       }
 
-      .position-img-five {
+      .position-img-circle {
         position: absolute;
         bottom: 22%;
         left: 10%;

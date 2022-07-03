@@ -5,6 +5,7 @@
     <SmartTutoring></SmartTutoring>
     <MainSectionTwo></MainSectionTwo>
     <StudentsReviews></StudentsReviews>
+    <StatisticsSection></StatisticsSection>
   </div>
 </template>
 
@@ -14,9 +15,10 @@ import SectionOnlineCourses from './SectionOnlineCourses.vue'
 import SmartTutoring from './SmartTutoring.vue'
 import MainSectionTwo from './MainSectionTwo.vue'
 import StudentsReviews from './StudentsReviews.vue'
+import StatisticsSection from './StatisticsSection.vue'
 
 export default {
-  components: { MainSection, SectionOnlineCourses, SmartTutoring, MainSectionTwo, StudentsReviews }
+  components: { MainSection, SectionOnlineCourses, SmartTutoring, MainSectionTwo, StudentsReviews, StatisticsSection }
 }
 
 </script>
