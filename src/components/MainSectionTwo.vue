@@ -1,5 +1,5 @@
 <template>
-  <div class="section py-5">
+  <div class="section py-5 mb-5">
     <div class="container">
 
       <div class="d-flex flex-row-reverse pb-3">
@@ -17,7 +17,7 @@
               <img :src="require('../assets/img/icon-youtube-play.png')" alt="" class="position-img-one-this">
               <img :src="require('../assets/img/maxcoach-shape-05-150x150.png')" alt="" class="position-img-two-this">
               <img :src="require('../assets/img/maxcoach-shape-07-150x150.png')" alt="" class="position-img-three-this">
-              <span class="position-img-five-this"></span>
+              <span class="position-img-circle-this"></span>
           </div>
         </div>
 
@@ -59,7 +59,7 @@ export default {
       z-index: -1;
     }
 
-    .position-img-five-this {
+    .position-img-circle-this {
       position: absolute;
       top: -10%;
       right: -10%;

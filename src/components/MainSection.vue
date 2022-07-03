@@ -18,7 +18,7 @@
             <img :src="require('../assets/img/maxcoach-shape-08.png')" alt="" class="position-img-two">
             <img :src="require('../assets/img/maxcoach-shape-07-150x150.png')" alt="" class="position-img-three">
             <img :src="require('../assets/img/maxcoach-shape-02.png')" alt="" class="position-img-four">
-            <span class="position-img-five"></span>
+            <span class="position-img-circle"></span>
           </div>
         </div>
 
