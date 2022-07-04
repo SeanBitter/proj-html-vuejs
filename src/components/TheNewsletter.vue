@@ -2,7 +2,7 @@
   <div class="section py-5 mx-auto">
     <div class="container container-newsletter position-relative">
 
-      <h3 class="fw-bold py-3">Subscribe <span class="text-my-primary fw-normal">Newsletters</span></h3>
+      <h3 class="fw-bold pb-3">Subscribe <span class="text-my-primary fw-normal">Newsletters</span></h3>
       <p class="text-muted pb-4">Enter your email address to register to our newsletter subscription delivered on a regular basis!</p>
 
       <form class="d-flex justify-content-center" role="search">
@@ -34,7 +34,7 @@ export default {
   max-width: 520px;
   width: 100%;
   text-align: center;
-  padding: 2rem 0;
+  padding: 3rem 0;
 }
 
 .btn-newsletter {
@@ -42,6 +42,11 @@ export default {
   color: white;
   padding: 1rem 2rem;
   border: 0;
+  transition: 0.3s ease-in-out;
+
+    &:hover {
+      background-color: $secondary;
+    }
 }
 
 .position-img-one {

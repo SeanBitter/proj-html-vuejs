@@ -97,6 +97,13 @@ export default {
 
 h3, h4, h5 {
   font-weight: 600;
+  line-height: 32px;
+  transition: 0.3s ease-in-out;
+}
+
+h5:hover {
+  color: $primary;
+  cursor: pointer;
 }
 
 img {

@@ -16,4 +16,9 @@
   padding: 1rem 3rem;
   border: 0;
   border-radius: 5px;
+  transition: 0.3s ease-in-out;
+
+    &:hover {
+      background-color: $secondary;
+    }
 }

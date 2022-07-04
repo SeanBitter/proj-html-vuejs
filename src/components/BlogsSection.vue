@@ -9,7 +9,7 @@
             <h6 class="text-my-tertiary">ENJOYABLE INSIGHTS</h6>
             <h3 class="fw-bold py-3">Most Viewed <span class="text-my-primary fw-normal">Best Blogs</span></h3>
             <ul class="list-unstyled">
-              <li class="py-3 fw-bold" v-for="(blogList, i) in blogsList" :key="i"><i class="fa-solid fa-right-long pe-3"></i>{{ blogList }}</li>
+              <li class="py-3 fw-bold" v-for="(blogList, i) in blogsList" :key="i"><i class="fa-solid fa-right-long pe-3"></i><a href="#" class="text-decoration-none text-my-secondary">{{ blogList }}</a></li>
             </ul>
           </div>
         </div>
@@ -70,9 +70,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/scss/variables";
 .section {
   background-color: #F5F1ED;
   padding: 5rem 0;
+}
+
+a:hover {
+  color: $primary;
 }
 
 </style>

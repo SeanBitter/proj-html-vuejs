@@ -11,8 +11,8 @@
             <div>
               <img :src="require('../assets/img/' + tutoring.imgUrl)" :alt="tutoring.title">
             </div>
-            <h5 class="fw-bold">{{ tutoring.title }}</h5>
-            <p class="text-my-tertiary fw-normal">{{ tutoring.description }}</p>
+            <h5 class="fw-bold pt-4 pb-2">{{ tutoring.title }}</h5>
+            <p class="text-my-tertiary fw-normal lh-base">{{ tutoring.description }}</p>
             <a class="text-my-tertiary text-decoration-none fw-bold">{{ tutoring.link }} <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
