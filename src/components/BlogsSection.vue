@@ -7,9 +7,9 @@
         <div class="col-sm-12 col-md-4">
           <div class="pt-5">
             <h6 class="text-my-tertiary">ENJOYABLE INSIGHTS</h6>
-            <h3 class="fw-bold py-3">Most Viewed <span class="text-my-primary fw-normal">Best Blogs</span></h3>
+            <h3 class="py-3">Most Viewed <span class="text-my-primary fw-normal">Best Blogs</span></h3>
             <ul class="list-unstyled">
-              <li class="py-3 fw-bold" v-for="(blogList, i) in blogsList" :key="i"><i class="fa-solid fa-right-long pe-3"></i><a href="#" class="text-decoration-none text-my-secondary">{{ blogList }}</a></li>
+              <li class="py-3" v-for="(blogList, i) in blogsList" :key="i"><i class="fa-solid fa-right-long pe-3"></i><a href="#" class="text-my-secondary">{{ blogList }}</a></li>
             </ul>
           </div>
         </div>
@@ -21,8 +21,8 @@
             </div>
 
             <div class="p-4">
-              <h6 class="text-my-tertiary fw-bold">{{ blog.profession.toUpperCase()}}</h6>
-              <h5 class="fw-bold lh-base py-3">{{ blog.title }}</h5>
+              <h6 class="text-my-tertiary">{{ blog.profession.toUpperCase()}}</h6>
+              <h5 class="lh-base py-3"><a href="#">{{ blog.title }}</a></h5>
               <h6 class="text-my-tertiary"><i class="fa-regular fa-calendar pe-2"></i> {{ blog.date }} <span class="ps-4"><i class="fa-regular fa-eye pe-2"></i> {{ blog.views }} views</span></h6>
             </div>
 
@@ -76,8 +76,13 @@ export default {
   padding: 5rem 0;
 }
 
-a:hover {
-  color: $primary;
+a {
+  color: $secondary;
+  transition: 0.3s ease-in-out;
+
+    &:hover {
+      color: $primary;
+    }
 }
 
 </style>

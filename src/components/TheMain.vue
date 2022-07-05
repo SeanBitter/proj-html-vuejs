@@ -1,7 +1,7 @@
 <template>
   <div>
     <MainSection></MainSection>
-    <SectionOnlineCourses></SectionOnlineCourses>
+    <OnlineCourses></OnlineCourses>
     <SmartTutoring></SmartTutoring>
     <MainSectionTwo></MainSectionTwo>
     <StudentsReviews></StudentsReviews>
@@ -13,7 +13,7 @@
 
 <script>
 import MainSection from './MainSection.vue'
-import SectionOnlineCourses from './SectionOnlineCourses.vue'
+import OnlineCourses from './OnlineCourses.vue'
 import SmartTutoring from './SmartTutoring.vue'
 import MainSectionTwo from './MainSectionTwo.vue'
 import StudentsReviews from './StudentsReviews.vue'
@@ -22,7 +22,7 @@ import BlogsSection from './BlogsSection.vue'
 import TheNewsletter from './TheNewsletter.vue'
 
 export default {
-  components: { MainSection, SectionOnlineCourses, SmartTutoring, MainSectionTwo, StudentsReviews, StatisticsSection, BlogsSection, TheNewsletter, }
+  components: { MainSection, OnlineCourses, SmartTutoring, MainSectionTwo, StudentsReviews, StatisticsSection, BlogsSection, TheNewsletter, }
 }
 
 </script>

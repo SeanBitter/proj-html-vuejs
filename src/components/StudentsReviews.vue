@@ -2,14 +2,14 @@
   <div class="section py-5">
 
     <h6 class="text-my-tertiary text-center pt-5">GREAT WORDS ABOUT MAXCOACH</h6>
-    <h3 class="fw-bold text-center pb-4">Our <span class="text-my-primary fw-normal">Top Learners'</span> verbatim</h3>
+    <h3 class="text-center pb-4">Our <span class="text-my-primary fw-normal">Top Learners'</span> verbatim</h3>
 
     <div class="row">
       <div class="col-4" v-for="(review, i) in topLearners" :key="i">
 
         <div class="bg-white rounded p-4 mx-2 h-100">
-          <h5 class="fw-bold py-2">{{ review.title }}</h5>
-          <p class="text-my-tertiary fw-bold pb-3">{{ review.comment }}</p>
+          <h5 class="py-2">{{ review.title }}</h5>
+          <p class="text-my-tertiary pb-3">{{ review.comment }}</p>
           <div class="row">
             <div class="col-3">
               <div class="learners-img">
@@ -17,7 +17,7 @@
               </div>
             </div>
             <div class="col-9 my-auto">
-                <h6 class="fw-bold">{{ review.name.toUpperCase() }}</h6>
+                <h6>{{ review.name.toUpperCase() }}</h6>
                 <h6 class="text-my-tertiary">/ {{ review.profession }}</h6>
             </div>
           </div>
@@ -34,8 +34,8 @@
     </div>
 
     <div class="text-center py-4 position-relative">
-      <h5 class="fw-bold">Start today for getting <span class="text-my-primary fw-normal">Online Certification</span></h5>
-      <h3 class="fw-bold">You can be your own guiding star with our help!</h3>
+      <h5>Start today for getting <span class="text-my-primary fw-normal">Online Certification</span></h5>
+      <h3>You can be your own guiding star with our help!</h3>
       <div class="pt-4">
         <button class="my-btn">Get started now</button>
       </div>

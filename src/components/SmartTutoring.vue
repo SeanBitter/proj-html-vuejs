@@ -2,8 +2,8 @@
   <div class="section py-5">
     <div class="container">
 
-      <h6 class="text-my-tertiary text-center pt-5">MAX COACH AVAILABLE COURSES</h6>
-      <h3 class="fw-bold text-center">Access <span class="text-my-primary fw-normal">Smart Tutoring</span> Program for Benefits.</h3>
+      <h6 class="text-my-tertiary text-center pt-5 fw-normal">MAX COACH AVAILABLE COURSES</h6>
+      <h3 class="text-center">Access <span class="text-my-primary fw-normal">Smart Tutoring</span> Program for Benefits.</h3>
 
       <div class="row">
         <div class="col-4" v-for="(tutoring, i) in smartTutoring" :key="i">
@@ -11,7 +11,7 @@
             <div>
               <img :src="require('../assets/img/' + tutoring.imgUrl)" :alt="tutoring.title">
             </div>
-            <h5 class="fw-bold pt-4 pb-2">{{ tutoring.title }}</h5>
+            <h5 class="pt-4 pb-2">{{ tutoring.title }}</h5>
             <p class="text-my-tertiary fw-normal lh-base">{{ tutoring.description }}</p>
             <a class="text-my-tertiary text-decoration-none fw-bold">{{ tutoring.link }} <i class="fa-solid fa-arrow-right"></i></a>
           </div>

@@ -1,12 +1,12 @@
 <template>
-  <div class="section py-5">
+  <div class="section py-5 position-relative">
     <div class="container">
 
       <div class="d-flex pb-3">
 
         <div class="main-section-text my-auto">
           <h2>Distant learning for further expansion</h2>
-          <p class="pb-3 fs-5">Learning is a life-long-journey that in fact we never find the terminate stop. Stop searching, enjoy the process.</p>
+          <p class="pb-3 fs-5 fw-normal">Learning is a life-long-journey that in fact we never find the terminate stop. Stop searching, enjoy the process.</p>
           <button class="my-btn my-3"><i class="fa-solid fa-download pe-3"></i>Download free guide</button>
           <p class="py-3">Have questions? <span>Get Free Sample<i class="fa-solid fa-arrow-right ps-2"></i></span></p>
         </div>
@@ -24,12 +24,31 @@
 
       </div>
 
-      <div class="row py-3">
+      <div class="row py-3 logos">
         <div class="col-sm-6 col-md-4 col-lg-2 d-flex align-items-center justify-content-center py-3" v-for="logo in logos" :key="logo.name">
-          <img :src="logosUrl(logo.imgCode)" :alt="logo.name" class="opacity-50">
+          <a href="#"><img :src="logosUrl(logo.imgCode)" :alt="logo.name" class="opacity-50"></a>
         </div>
       </div>
+
     </div>
+
+    <div class="side-nav shadow">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa-solid fa-ruler-combined"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa-regular fa-life-ring"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa-solid fa-book"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </li>
+      </ul>
+    </div>
+
   </div>
 </template>
 
@@ -146,6 +165,24 @@ export default {
         border: 8px solid #ECC5AB;
         padding: 1.5rem;
         border-radius: 50%;
+      }
+  }
+
+  .side-nav {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    background-color: white;
+
+      a {
+        color: rgb(50, 50, 55);
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        transition: 0.3s ease-in-out;
+
+          &:hover {
+            color: darken($tertiary, 10);
+          }
       }
   }
 </style>

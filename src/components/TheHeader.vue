@@ -18,6 +18,7 @@
 
       </nav>
     </div>
+
     <div class="nav-border"></div>
   </div>
 </template>
@@ -48,10 +49,9 @@ export default {
   }
 
   .nav-border {
-    // box-shadow: 0px 15px 10px -15px rgb(213, 213, 213);
-    // padding: 1rem;
     border-bottom: 4px solid rgba(222, 225, 228, 0.3);
   }
+
 
   .glass-position {
     position: absolute;

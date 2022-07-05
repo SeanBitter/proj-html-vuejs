@@ -5,9 +5,9 @@
       <div class="d-flex flex-row-reverse pb-3">
 
         <div class="main-section-text my-auto ps-5">
-          <h6 class="text-my-tertiary">GET STARTED <span class="border-0 text-my-secondary fw-bold">EFFORTLESSLY</span></h6>
+          <h6 class="text-my-tertiary fw-normal">GET STARTED <span class="border-0 text-my-secondary fw-bold">EFFORTLESSLY</span></h6>
           <h2>Enjoy our <span class="border-0">Companionship</span></h2>
-          <p class="pb-3 fs-5">Sneek peek into what has in store for you on our online teaching and mentoring portal. Seek for some hidden hints of early-bird rewards as well.</p>
+          <p class="pb-3 fs-5 fw-normal">Sneek peek into what has in store for you on our online teaching and mentoring portal. Seek for some hidden hints of early-bird rewards as well.</p>
           <p class="py-3"><span>Download free guidebook<i class="fa-solid fa-arrow-right ps-2"></i></span></p>
         </div>
 

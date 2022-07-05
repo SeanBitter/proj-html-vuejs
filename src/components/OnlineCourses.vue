@@ -2,8 +2,8 @@
   <div class="section py-5">
     <div class="container">
 
-      <h6 class="text-my-tertiary text-center">SIMULATED TO LEARN?</h6>
-      <h3 class="text-center fw-bold">Featured Online Courses</h3>
+      <h6 class="text-my-tertiary text-center fw-normal">SIMULATED TO LEARN?</h6>
+      <h3 class="text-center">Featured Online Courses</h3>
 
       <div class="row">
         <div class="col-6 py-5" v-for="(course, i) in onlineCoursesDetails" :key="i">

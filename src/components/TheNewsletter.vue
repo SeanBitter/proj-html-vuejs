@@ -2,7 +2,7 @@
   <div class="section py-5 mx-auto">
     <div class="container container-newsletter position-relative">
 
-      <h3 class="fw-bold pb-3">Subscribe <span class="text-my-primary fw-normal">Newsletters</span></h3>
+      <h3 class="pb-3">Subscribe <span class="text-my-primary fw-normal">Newsletters</span></h3>
       <p class="text-muted pb-4">Enter your email address to register to our newsletter subscription delivered on a regular basis!</p>
 
       <form class="d-flex justify-content-center" role="search">

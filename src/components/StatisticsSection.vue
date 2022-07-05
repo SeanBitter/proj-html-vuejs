@@ -3,9 +3,9 @@
     <div class="row">
       <div class="col-sm-6 col-md-3" v-for="(statistic, i) in studentsStatistics" :key="i">
         <div class="card-style">
-          <h5 class="fw-bold px-5">{{ statistic.title }}</h5>
-          <h2 class="text-my-primary fw-bold number-style">{{ statistic.number }}</h2>
-          <h6 class="text-my-tertiary fw-bold">{{ statistic.subtitle.toUpperCase()}}</h6>
+          <h5 class="px-5">{{ statistic.title }}</h5>
+          <h2 class="text-my-primary number-style">{{ statistic.number }}</h2>
+          <h6 class="text-my-tertiary">{{ statistic.subtitle.toUpperCase()}}</h6>
         </div>
       </div>
     </div>

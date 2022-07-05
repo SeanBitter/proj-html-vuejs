@@ -5,7 +5,7 @@
 
           <div class="col-6">
             <div class="text-my-tertiary">
-              <h5 class="text-dark fw-bold py-3">Address</h5>
+              <h5 class="text-dark py-3">Address</h5>
               <p>382 NE 191st St # 87394 Miami, FL 33179-3899</p>
               <p>+1(305)547-9909 (9am - 5pm EST, Monday - Friday)</p>
               <a href="#">support@maxcoach.com</a>
@@ -22,17 +22,17 @@
             <div class="row">
 
               <div class="col-3">
-                <h5 class="text-dark fw-bold">Explore</h5>
+                <h5 class="text-dark">Explore</h5>
                 <a href="#" v-for="(link, i) in exploreLinks" :key="i">{{ link }}</a>
               </div>
 
               <div class="col-3">
-                <h5 class="text-dark fw-bold"></h5><br>
+                <h5 class="text-dark"></h5><br>
                 <a href="#" v-for="(link, i) in links" :key="i">{{ link }}</a>
               </div>
 
               <div class="col-3">
-                <h5 class="text-dark fw-bold">Information</h5>
+                <h5 class="text-dark">Information</h5>
                 <a href="#" v-for="(link, i) in informationLinks" :key="i">{{ link }}</a>
               </div>
 
@@ -42,7 +42,7 @@
         </div>
         
         <div class="copyright">
-          <h6 class="fw-bold"><i class="fa-regular fa-copyright"></i> 2020 MaxCoach. All Rights Reserved</h6>
+          <h6><i class="fa-regular fa-copyright"></i> 2020 MaxCoach. All Rights Reserved</h6>
         </div>
 
     </div>
