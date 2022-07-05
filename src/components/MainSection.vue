@@ -8,7 +8,7 @@
           <h2>Distant learning for further expansion</h2>
           <p class="pb-3 fs-5 fw-normal">Learning is a life-long-journey that in fact we never find the terminate stop. Stop searching, enjoy the process.</p>
           <button class="my-btn my-3"><i class="fa-solid fa-download pe-3"></i>Download free guide</button>
-          <p class="py-3">Have questions? <span>Get Free Sample<i class="fa-solid fa-arrow-right ps-2"></i></span></p>
+          <p class="py-3">Have questions? <a href="#"><span>Get Free Sample<i class="fa-solid fa-arrow-right ps-2"></i></span></a></p>
         </div>
 
         <div class="main-section-img my-3 text-end">
@@ -122,6 +122,11 @@ export default {
       span {
         color: $primary;
         border-bottom: 1px solid lighten($tertiary, 20%);
+        transition: 0.3s ease-in-out;
+
+          &:hover {
+            color: $secondary;
+          }
       }
   }
 

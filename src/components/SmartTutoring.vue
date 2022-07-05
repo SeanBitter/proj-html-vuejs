@@ -13,7 +13,7 @@
             </div>
             <h5 class="pt-4 pb-2">{{ tutoring.title }}</h5>
             <p class="text-my-tertiary fw-normal lh-base">{{ tutoring.description }}</p>
-            <a class="text-my-tertiary text-decoration-none fw-bold">{{ tutoring.link }} <i class="fa-solid fa-arrow-right"></i></a>
+            <a class="text-my-tertiary fw-bold">{{ tutoring.link }} <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
       </div>

@@ -78,7 +78,6 @@ export default {
 
 a {
   color: $secondary;
-  transition: 0.3s ease-in-out;
 
     &:hover {
       color: $primary;

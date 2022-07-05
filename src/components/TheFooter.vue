@@ -77,22 +77,13 @@ footer {
 }
 
 .logos a {
-  text-decoration: none;
-  color: $tertiary;
   display: inline;
   cursor: pointer;
 }
 
 a {
-  text-decoration: none;
-  color: $tertiary;
   display: block;
   line-height: 32px;
-  transition: 0.3s ease-in-out;
-
-    &:hover {
-      color: darken($tertiary, 10);
-    }
 }
 
 .copyright {
